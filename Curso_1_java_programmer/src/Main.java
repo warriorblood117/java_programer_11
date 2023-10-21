@@ -1,16 +1,15 @@
+import herencia.Canguro;
+import herencia.Delfin;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+    // Crear Concesionario que vende vehiculos (Carros, Motos) y se puedan listar
+    // modificar y eliminar vehiculos, el numero de inventario no se puede repetir
+   // atributos de un vehiculo en general: Marca, Modelo y Cilindraje
+
     public static void main(String[] args) {
 
-        List<Persona> personas = new ArrayList<>();
-        personas.add(new Persona("daniel", "florez", 1, 1030));
-        personas.add(new Persona("yesid", "lopez", 20, 1080));
-        personas.add(new Persona("gustavo", "moreno", 40, 123));
-        personas.add(new Persona("adolfo", "salva", 10, 724));
-
-        personas.forEach(System.out::println);
     }
-
 }
